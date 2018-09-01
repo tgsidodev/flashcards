@@ -1,0 +1,13 @@
+/* flashcard-style.css */
+@keyframes fade-up {
+  from {
+    top: 100%;
+  }
+  to {
+    top: 0%;
+  }
+}
+
+.fade-up {
+  animation: fade-up .5s;
+}
